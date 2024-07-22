@@ -1,0 +1,86 @@
+{
+    "MAIN.read_positions":{
+        "python_var":"actual_pos_py",
+        "type": "STRUCTURE",
+        "mode": "Read",
+        "last_value": "None"
+    },
+    "MAIN.Enables.M1":{
+        "python_var":"move_m1_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Enables.M2":{
+        "python_var":"move_m2_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Enables.M3":{
+        "python_var":"move_m3_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Enables.M4":{
+        "python_var":"move_m4_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Enables.M5":{
+        "python_var":"move_m5_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Enables.M6":{
+        "python_var":"move_m6_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.outputValues[1]":{
+        "python_var":"movepos_m1_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.outputValues[2]":{
+        "python_var":"movepos_m2_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.outputValues[3]":{
+        "python_var":"movepos_m3_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.outputValues[4]":{
+        "python_var":"movepos_m4_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.outputValues[5]":{
+        "python_var":"movepos_m5_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.outputValues[6]":{
+        "python_var":"movepos_m6_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    }
+
+
+}

@@ -1,0 +1,68 @@
+{
+    "MAIN.Move_ACS_M1_py":{
+        "python_var":"move_m1_py",
+        "type": "BOOL",
+        "mode": "Write"
+    },
+
+    "MAIN.Move_ACS_M2_py":{
+        "python_var":"move_m2_py",
+        "type": "BOOL",
+        "mode": "Write"
+    },
+
+    "MAIN.Move_ACS_M3_py":{
+        "python_var":"move_m3_py",
+        "type": "BOOL",
+        "mode": "Write"
+    },
+
+    "MAIN.Move_ACS_M4_py":{
+        "python_var":"move_m4_py",
+        "type": "BOOL",
+        "mode": "Write"
+    },
+    "MAIN.Move_ACS_M5_py":{
+        "python_var":"move_m5_py",
+        "type": "BOOL",
+        "mode": "Write"
+    },
+    "MAIN.Move_ACS_M6_py":{
+        "python_var":"move_m6_py",
+        "type": "BOOL",
+        "mode": "Write"
+    },
+
+    "MAIN.MovePos_ACS_M1_py":{
+        "python_var":"movepos_m1_py",
+        "type": "LREAL",
+        "mode": "Write"
+    },
+    "MAIN.MovePos_ACS_M2_py":{
+        "python_var":"movepos_m2_py",
+        "type": "LREAL",
+        "mode": "Write"
+    },
+    "MAIN.MovePos_ACS_M3_py":{
+        "python_var":"movepos_m3_py",
+        "type": "LREAL",
+        "mode": "Write"
+    },
+    "MAIN.MovePos_ACS_M4_py":{
+        "python_var":"movepos_m4_py",
+        "type": "LREAL",
+        "mode": "Write"
+    },
+    "MAIN.MovePos_ACS_M5_py":{
+        "python_var":"movepos_m5_py",
+        "type": "LREAL",
+        "mode": "Write"
+    },
+    "MAIN.MovePos_ACS_M6_py":{
+        "python_var":"movepos_m6_py",
+        "type": "LREAL",
+        "mode": "Write"
+    }
+
+
+}

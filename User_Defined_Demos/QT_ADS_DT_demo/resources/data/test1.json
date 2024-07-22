@@ -1,0 +1,12 @@
+{
+    "plc1": {
+        "python_var": "py1",
+        "type": "LREAL",
+        "mode": "Read"
+    },
+    "plc2": {
+        "python_var": "py2",
+        "type": "BOOL",
+        "mode": "Write"
+    }
+}

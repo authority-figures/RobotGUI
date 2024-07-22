@@ -1,0 +1,20 @@
+ <robot name="tuopu">
+	<link name="link_base">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/workpiece.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color0">
+			<color rgba="0.792156862745098 0.819607843137255 0.933333333333333 0.8" />
+		  </material>
+		</visual>
+		<collision>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <mesh filename="Geometry/workpiece_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+</robot>

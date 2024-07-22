@@ -1,0 +1,80 @@
+{
+    "MAIN.Enables.M1":{
+        "python_var":"move_m1_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Enables.M2":{
+        "python_var":"move_m2_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Enables.M3":{
+        "python_var":"move_m3_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Enables.M4":{
+        "python_var":"move_m4_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Enables.M5":{
+        "python_var":"move_m5_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Enables.M6":{
+        "python_var":"move_m6_py",
+        "type": "BOOL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+
+    "MAIN.Positions.M1":{
+        "python_var":"movepos_m1_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Positions.M2":{
+        "python_var":"movepos_m2_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Positions.M3":{
+        "python_var":"movepos_m3_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Positions.M4":{
+        "python_var":"movepos_m4_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Positions.M5":{
+        "python_var":"movepos_m5_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    },
+    "MAIN.Positions.M6":{
+        "python_var":"movepos_m6_py",
+        "type": "LREAL",
+        "mode": "Write",
+        "last_value": "None"
+    }
+
+
+}

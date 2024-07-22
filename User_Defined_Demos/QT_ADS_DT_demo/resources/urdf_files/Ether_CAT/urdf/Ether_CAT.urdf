@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Ether_CAT">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0323626234835106 0.00344176950727512 0.37456834597202"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.272453794753659"
+        ixy="0.000708171310081887"
+        ixz="-0.0875266548375106"
+        iyy="0.338180677927702"
+        iyz="-0.000547052114421807"
+        izz="0.0863972997987517" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="0.0323626234835106 0.00344176950727512 0.0345683459720186"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.272453794753659"
+        ixy="0.000708171310081887"
+        ixz="-0.0875266548375106"
+        iyy="0.338180677927702"
+        iyz="-0.000547052114421807"
+        izz="0.0863972997987517" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.34"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="1"
+      velocity="100" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="0.0347394274430952 -0.0321789080439745 -0.00344176950727598"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.0854745141439858"
+        ixy="0.0865353887675999"
+        ixz="0.000543290126888549"
+        iyy="0.273376580408425"
+        iyz="0.000711061501096761"
+        izz="0.338180677927702" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_2"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 -1.5655 0" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="1"
+      velocity="100" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="-0.225239174315084 -0.0321789095094738 0.0062227958241004"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.085474514136001"
+        ixy="0.0865353886344254"
+        ixz="0.000543308649319059"
+        iyy="0.273376580073512"
+        iyz="0.00071104687535826"
+        izz="0.3381806782706" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_3"
+    type="revolute">
+    <origin
+      xyz="0.25998 0 -0.0096646"
+      rpy="0 0 0" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="0.00049083 -0.092586 0.9957" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="1"
+      velocity="100" />
+  </joint>
+  <link
+    name="Link_4">
+    <inertial>
+      <origin
+        xyz="-0.25043165405061 -0.00339176783593207 -0.247637376514835"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.0863972998060541"
+        ixy="0.00054705379490502"
+        ixz="-0.0875266548422372"
+        iyy="0.338180677920399"
+        iyz="-0.0007081707259011"
+        izz="0.272453794753659" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_4"
+    type="revolute">
+    <origin
+      xyz="0.026502 -0.27849 0.0096145"
+      rpy="1.5708 0 0.0053014" />
+    <parent
+      link="Link_3" />
+    <child
+      link="Link_4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="1"
+      velocity="100" />
+  </joint>
+  <link
+    name="Link_5">
+    <inertial>
+      <origin
+        xyz="-0.247637376514835 0.250431654027991 0.00339176950733451"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.272453794753659"
+        ixy="0.0875266548375105"
+        ixz="0.000708171310101708"
+        iyy="0.0863972997987514"
+        iyz="0.000547052114364795"
+        izz="0.338180677927702" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_5"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="Link_4" />
+    <child
+      link="Link_5" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="1"
+      velocity="100" />
+  </joint>
+  <link
+    name="Link_6">
+    <inertial>
+      <origin
+        xyz="0.250431654027986 0.0033917695072157 -0.326637376516478"
+        rpy="0 0 0" />
+      <mass
+        value="5.83773534684926" />
+      <inertia
+        ixx="0.0863972997987517"
+        ixy="0.000547052114421802"
+        ixz="0.0875266548375106"
+        iyy="0.338180677927702"
+        iyz="0.000708171310081891"
+        izz="0.272453794753659" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ether_CAT/meshes/Link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_6"
+    type="revolute">
+    <origin
+      xyz="0.079 0 0"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="Link_5" />
+    <child
+      link="Link_6" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1000"
+      upper="1000"
+      effort="1"
+      velocity="100" />
+  </joint>
+</robot>

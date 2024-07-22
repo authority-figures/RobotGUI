@@ -1,0 +1,13 @@
+<robot name="simple_model">
+  <link name="baseLink">
+    <visual>
+      <geometry>
+        <mesh filename="Geometry/duck.obj" scale="1 1 1" />
+      </geometry>
+      <material
+        name="robot_black">
+        <color rgba="0.9137255 1 1 1" />
+	  </material>
+    </visual>
+  </link>
+</robot>

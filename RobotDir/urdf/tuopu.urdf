@@ -1,0 +1,198 @@
+ <robot name="tuopu">
+	<link name="link_base">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/A_TABLE_SURPORT.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color0">
+			<color rgba="0.792156862745098 0.819607843137255 0.933333333333333 0.8" />
+		  </material>
+		</visual>
+		<collision>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <mesh filename="Geometry/A_TABLE_SURPORT_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/BED.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color0">
+			<color rgba="0.792156862745098 0.819607843137255 0.933333333333333 0.8" />
+		  </material>
+		</visual>
+		<collision>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <geometry>
+            <mesh filename="Geometry/BED_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+	<link name="link_X_axis">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/X_AXIS.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color3">
+			<color rgba="0 0 1 0.8" />
+		  </material>
+		</visual>
+		<collision>
+          <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+          <geometry>
+            <mesh filename="Geometry/X_AXIS_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+
+	<joint name="machine_X" type="prismatic">
+        <axis xyz="1 0 0"/>
+        <parent link="link_base"/>
+        <child link="link_X_axis"/>
+        <origin rpy="0. 0. 0." xyz="0. 0. 0."/>
+        <limit lower="-1.00" upper="1.00" effort="0" velocity="0" />
+    </joint>
+
+	<link name="link_Y_axis">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/Y_Axis.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color1">
+		  </material>
+		</visual>
+		<collision>
+          <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+          <geometry>
+            <mesh filename="Geometry/Y_Axis_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+	<joint name="machine_Y" type="prismatic">
+        <axis xyz="0 1 0"/>
+        <parent link="link_X_axis"/>
+        <child link="link_Y_axis"/>
+        <origin rpy="0. 0. 0." xyz="0. 0. 0."/>
+        <limit lower="-1.00" upper="1.00" effort="0" velocity="0" />
+    </joint>
+
+	<link name="link_Z_axis">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/Z_Axis.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color2">
+		  </material>
+		</visual>
+		<collision>
+          <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+          <geometry>
+            <mesh filename="Geometry/Z_Axis_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+	<joint name="machine_Z" type="prismatic">
+        <axis xyz="0 0 1"/>
+        <parent link="link_Y_axis"/>
+        <child link="link_Z_axis"/>
+        <origin rpy="0. 0. 0." xyz="0. 0. 0."/>
+        <limit lower="-1.00" upper="1.00" effort="0" velocity="0" />
+    </joint>
+
+	<link name="link_A_axis">
+		<visual>
+		  <origin xyz="0. +0.05 -.128" rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/A_TABLE.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color1">
+			<color rgba="1 0 0 0.8" />
+		  </material>
+		</visual>
+		<collision>
+          <origin xyz="0. +0.05 -.128" rpy="0. 0. 0." />
+          <geometry>
+            <mesh filename="Geometry/A_TABLE_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+	<joint name="machine_A" type="revolute">
+        <axis xyz="1 0 0"/>
+        <parent link="link_base"/>
+        <child link="link_A_axis"/>
+        <origin rpy="0. 0. 0." xyz="0. -.05 .128"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0" />
+    </joint>
+
+
+    <link name="link_C_axis">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/C_TABLE.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color2">
+			<color rgba="0 1 0 0.8" />
+		  </material>
+		</visual>
+		<collision>
+          <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+          <geometry>
+            <mesh filename="Geometry/C_TABLE_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+	<joint name="machine_C" type="revolute">
+        <axis xyz="0 0 1"/>
+        <parent link="link_A_axis"/>
+        <child link="link_C_axis"/>
+        <origin rpy="0. 0. 0." xyz="0. +.05 -.128"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0" />
+    </joint>
+
+	<link name="link_S_axis">
+		<visual>
+		  <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+		  <geometry>
+			<mesh filename="Geometry/Spindle.obj" scale="0.001 0.001 0.001" />
+		  </geometry>
+		  <material
+			name="color3">
+		  </material>
+		</visual>
+		<collision>
+          <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+          <geometry>
+            <mesh filename="Geometry/Spindle_vhacd.obj" scale="0.001 0.001 0.001" />
+          </geometry>
+        </collision>
+    </link>
+
+	<joint name="machine_S" type="continuous">
+        <axis xyz="0 0 1"/>
+        <parent link="link_Z_axis"/>
+        <child link="link_S_axis"/>
+        <origin rpy="0. 0. 0." xyz="0. 0. 0."/>
+        <limit effort="0" velocity="0" />
+    </joint>
+</robot>

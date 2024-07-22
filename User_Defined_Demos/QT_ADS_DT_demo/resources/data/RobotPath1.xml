@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RobotPath1>
+   <Step id="1">
+      <Joint1>0</Joint1>
+      <Joint2>0</Joint2>
+      <Joint3>0</Joint3>
+      <Joint4>0</Joint4>
+      <Joint5>0</Joint5>
+      <Joint6>0</Joint6>
+   </Step>
+   <Step id="2">
+      <Joint1>0.0037329</Joint1>
+      <Joint2>-0.0043286</Joint2>
+      <Joint3>0.0065897</Joint3>
+      <Joint4>6.6966e-10</Joint4>
+      <Joint5>0.0091008</Joint5>
+      <Joint6>0.0037329</Joint6>
+   </Step>
+   <Step id="3">
+      <Joint1>0.028962</Joint1>
+      <Joint2>-0.033584</Joint2>
+      <Joint3>0.051127</Joint3>
+      <Joint4>5.1956e-09</Joint4>
+      <Joint5>0.070609</Joint5>
+      <Joint6>0.028962</Joint6>
+   </Step>
+   <Step id="4">
+      <Joint1>0.094754</Joint1>
+      <Joint2>-0.10988</Joint2>
+      <Joint3>0.16727</Joint3>
+      <Joint4>1.6999e-08</Joint4>
+      <Joint5>0.23101</Joint5>
+      <Joint6>0.094754</Joint6>
+   </Step>
+   <Step id="5">
+      <Joint1>0.21763</Joint1>
+      <Joint2>-0.25236</Joint2>
+      <Joint3>0.38418</Joint3>
+      <Joint4>3.9042e-08</Joint4>
+      <Joint5>0.53058</Joint5>
+      <Joint6>0.21763</Joint6>
+   </Step>
+   <Step id="6">
+      <Joint1>0.41167</Joint1>
+      <Joint2>-0.47736</Joint2>
+      <Joint3>0.72673</Joint3>
+      <Joint4>7.3852e-08</Joint4>
+      <Joint5>1.0037</Joint5>
+      <Joint6>0.41167</Joint6>
+   </Step>
+   <Step id="7">
+      <Joint1>0.68863</Joint1>
+      <Joint2>-0.79852</Joint2>
+      <Joint3>1.2156</Joint3>
+      <Joint4>1.2354e-07</Joint4>
+      <Joint5>1.6789</Joint5>
+      <Joint6>0.68863</Joint6>
+   </Step>
+   <Step id="8">
+      <Joint1>1.058</Joint1>
+      <Joint2>-1.2269</Joint2>
+      <Joint3>1.8678</Joint3>
+      <Joint4>1.8981e-07</Joint4>
+      <Joint5>2.5795</Joint5>
+      <Joint6>1.058</Joint6>
+   </Step>
+   <Step id="9">
+      <Joint1>1.5273</Joint1>
+      <Joint2>-1.7711</Joint2>
+      <Joint3>2.6962</Joint3>
+      <Joint4>2.74e-07</Joint4>
+      <Joint5>3.7237</Joint5>
+      <Joint6>1.5273</Joint6>
+   </Step>
+   <Step id="10">
+      <Joint1>2.102</Joint1>
+      <Joint2>-2.4374</Joint2>
+      <Joint3>3.7107</Joint3>
+      <Joint4>3.7709e-07</Joint4>
+      <Joint5>5.1247</Joint5>
+      <Joint6>2.102</Joint6>
+   </Step>
+   <Step id="11">
+      <Joint1>2.7855</Joint1>
+      <Joint2>-3.23</Joint2>
+      <Joint3>4.9173</Joint3>
+      <Joint4>4.9971e-07</Joint4>
+      <Joint5>6.7911</Joint5>
+      <Joint6>2.7855</Joint6>
+   </Step>
+   <Step id="12">
+      <Joint1>3.5797</Joint1>
+      <Joint2>-4.1509</Joint2>
+      <Joint3>6.3193</Joint3>
+      <Joint4>6.4218e-07</Joint4>
+      <Joint5>8.7273</Joint5>
+      <Joint6>3.5797</Joint6>
+   </Step>
+   <Step id="13">
+      <Joint1>4.4846</Joint1>
+      <Joint2>-5.2003</Joint2>
+      <Joint3>7.9168</Joint3>
+      <Joint4>8.0453e-07</Joint4>
+      <Joint5>10.9336</Joint5>
+      <Joint6>4.4846</Joint6>
+   </Step>
+   <Step id="14">
+      <Joint1>5.499</Joint1>
+      <Joint2>-6.3765</Joint2>
+      <Joint3>9.7074</Joint3>
+      <Joint4>9.8649e-07</Joint4>
+      <Joint5>13.4066</Joint5>
+      <Joint6>5.499</Joint6>
+   </Step>
+   <Step id="15">
+      <Joint1>6.6198</Joint1>
+      <Joint2>-7.6762</Joint2>
+      <Joint3>11.686</Joint3>
+      <Joint4>1.1876e-06</Joint4>
+      <Joint5>16.1391</Joint5>
+      <Joint6>6.6198</Joint6>
+   </Step>
+   <Step id="16">
+      <Joint1>7.8428</Joint1>
+      <Joint2>-9.0945</Joint2>
+      <Joint3>13.8451</Joint3>
+      <Joint4>1.407e-06</Joint4>
+      <Joint5>19.121</Joint5>
+      <Joint6>7.8429</Joint6>
+   </Step>
+   <Step id="17">
+      <Joint1>9.1628</Joint1>
+      <Joint2>-10.6251</Joint2>
+      <Joint3>16.1753</Joint3>
+      <Joint4>1.6438e-06</Joint4>
+      <Joint5>22.3391</Joint5>
+      <Joint6>9.1628</Joint6>
+   </Step>
+   <Step id="18">
+      <Joint1>10.5731</Joint1>
+      <Joint2>-12.2604</Joint2>
+      <Joint3>18.6649</Joint3>
+      <Joint4>1.8968e-06</Joint4>
+      <Joint5>25.7774</Joint5>
+      <Joint6>10.5731</Joint6>
+   </Step>
+   <Step id="19">
+      <Joint1>12.0662</Joint1>
+      <Joint2>-13.9918</Joint2>
+      <Joint3>21.3006</Joint3>
+      <Joint4>2.1646e-06</Joint4>
+      <Joint5>29.4176</Joint5>
+      <Joint6>12.0662</Joint6>
+   </Step>
+   <Step id="20">
+      <Joint1>13.6336</Joint1>
+      <Joint2>-15.8094</Joint2>
+      <Joint3>24.0677</Joint3>
+      <Joint4>2.4458e-06</Joint4>
+      <Joint5>33.2391</Joint5>
+      <Joint6>13.6336</Joint6>
+   </Step>
+   <Step id="21">
+      <Joint1>15.2663</Joint1>
+      <Joint2>-17.7027</Joint2>
+      <Joint3>26.95</Joint3>
+      <Joint4>2.7387e-06</Joint4>
+      <Joint5>37.2197</Joint5>
+      <Joint6>15.2663</Joint6>
+   </Step>
+   <Step id="22">
+      <Joint1>16.9544</Joint1>
+      <Joint2>-19.6601</Joint2>
+      <Joint3>29.9299</Joint3>
+      <Joint4>3.0416e-06</Joint4>
+      <Joint5>41.3351</Joint5>
+      <Joint6>16.9544</Joint6>
+   </Step>
+   <Step id="23">
+      <Joint1>18.6874</Joint1>
+      <Joint2>-21.6697</Joint2>
+      <Joint3>32.9892</Joint3>
+      <Joint4>3.3525e-06</Joint4>
+      <Joint5>45.5602</Joint5>
+      <Joint6>18.6874</Joint6>
+   </Step>
+   <Step id="24">
+      <Joint1>20.4545</Joint1>
+      <Joint2>-23.7188</Joint2>
+      <Joint3>36.1087</Joint3>
+      <Joint4>3.6695e-06</Joint4>
+      <Joint5>49.8684</Joint5>
+      <Joint6>20.4545</Joint6>
+   </Step>
+   <Step id="25">
+      <Joint1>22.2445</Joint1>
+      <Joint2>-25.7944</Joint2>
+      <Joint3>39.2686</Joint3>
+      <Joint4>3.9906e-06</Joint4>
+      <Joint5>54.2325</Joint5>
+      <Joint6>22.2445</Joint6>
+   </Step>
+   <Step id="26">
+      <Joint1>24.046</Joint1>
+      <Joint2>-27.8835</Joint2>
+      <Joint3>42.4489</Joint3>
+      <Joint4>4.3138e-06</Joint4>
+      <Joint5>58.6247</Joint5>
+      <Joint6>24.046</Joint6>
+   </Step>
+   <Step id="27">
+      <Joint1>25.8475</Joint1>
+      <Joint2>-29.9725</Joint2>
+      <Joint3>45.6292</Joint3>
+      <Joint4>4.637e-06</Joint4>
+      <Joint5>63.0169</Joint5>
+      <Joint6>25.8476</Joint6>
+   </Step>
+   <Step id="28">
+      <Joint1>27.6376</Joint1>
+      <Joint2>-32.0482</Joint2>
+      <Joint3>48.7891</Joint3>
+      <Joint4>4.9581e-06</Joint4>
+      <Joint5>67.381</Joint5>
+      <Joint6>27.6376</Joint6>
+   </Step>
+   <Step id="29">
+      <Joint1>29.4047</Joint1>
+      <Joint2>-34.0973</Joint2>
+      <Joint3>51.9086</Joint3>
+      <Joint4>5.2751e-06</Joint4>
+      <Joint5>71.6892</Joint5>
+      <Joint6>29.4047</Joint6>
+   </Step>
+   <Step id="30">
+      <Joint1>31.1377</Joint1>
+      <Joint2>-36.1068</Joint2>
+      <Joint3>54.9679</Joint3>
+      <Joint4>5.586e-06</Joint4>
+      <Joint5>75.9143</Joint5>
+      <Joint6>31.1377</Joint6>
+   </Step>
+   <Step id="31">
+      <Joint1>32.8257</Joint1>
+      <Joint2>-38.0643</Joint2>
+      <Joint3>57.9478</Joint3>
+      <Joint4>5.8888e-06</Joint4>
+      <Joint5>80.0298</Joint5>
+      <Joint6>32.8257</Joint6>
+   </Step>
+   <Step id="32">
+      <Joint1>34.4584</Joint1>
+      <Joint2>-39.9575</Joint2>
+      <Joint3>60.8301</Joint3>
+      <Joint4>6.1817e-06</Joint4>
+      <Joint5>84.0103</Joint5>
+      <Joint6>34.4584</Joint6>
+   </Step>
+   <Step id="33">
+      <Joint1>36.0259</Joint1>
+      <Joint2>-41.7752</Joint2>
+      <Joint3>63.5972</Joint3>
+      <Joint4>6.4629e-06</Joint4>
+      <Joint5>87.8319</Joint5>
+      <Joint6>36.0259</Joint6>
+   </Step>
+   <Step id="34">
+      <Joint1>37.519</Joint1>
+      <Joint2>-43.5065</Joint2>
+      <Joint3>66.233</Joint3>
+      <Joint4>6.7308e-06</Joint4>
+      <Joint5>91.472</Joint5>
+      <Joint6>37.519</Joint6>
+   </Step>
+   <Step id="35">
+      <Joint1>38.9292</Joint1>
+      <Joint2>-45.1419</Joint2>
+      <Joint3>68.7225</Joint3>
+      <Joint4>6.9838e-06</Joint4>
+      <Joint5>94.9103</Joint5>
+      <Joint6>38.9293</Joint6>
+   </Step>
+   <Step id="36">
+      <Joint1>40.2492</Joint1>
+      <Joint2>-46.6725</Joint2>
+      <Joint3>71.0527</Joint3>
+      <Joint4>7.2206e-06</Joint4>
+      <Joint5>98.1284</Joint5>
+      <Joint6>40.2492</Joint6>
+   </Step>
+   <Step id="37">
+      <Joint1>41.4723</Joint1>
+      <Joint2>-48.0907</Joint2>
+      <Joint3>73.2118</Joint3>
+      <Joint4>7.44e-06</Joint4>
+      <Joint5>101.1103</Joint5>
+      <Joint6>41.4723</Joint6>
+   </Step>
+   <Step id="38">
+      <Joint1>42.5931</Joint1>
+      <Joint2>-49.3904</Joint2>
+      <Joint3>75.1904</Joint3>
+      <Joint4>7.6411e-06</Joint4>
+      <Joint5>103.8428</Joint5>
+      <Joint6>42.5931</Joint6>
+   </Step>
+   <Step id="39">
+      <Joint1>43.6074</Joint1>
+      <Joint2>-50.5666</Joint2>
+      <Joint3>76.981</Joint3>
+      <Joint4>7.823e-06</Joint4>
+      <Joint5>106.3158</Joint5>
+      <Joint6>43.6074</Joint6>
+   </Step>
+   <Step id="40">
+      <Joint1>44.5124</Joint1>
+      <Joint2>-51.616</Joint2>
+      <Joint3>78.5785</Joint3>
+      <Joint4>7.9854e-06</Joint4>
+      <Joint5>108.5221</Joint5>
+      <Joint6>44.5124</Joint6>
+   </Step>
+   <Step id="41">
+      <Joint1>45.3065</Joint1>
+      <Joint2>-52.5369</Joint2>
+      <Joint3>79.9805</Joint3>
+      <Joint4>8.1278e-06</Joint4>
+      <Joint5>110.4583</Joint5>
+      <Joint6>45.3066</Joint6>
+   </Step>
+   <Step id="42">
+      <Joint1>45.9901</Joint1>
+      <Joint2>-53.3295</Joint2>
+      <Joint3>81.1871</Joint3>
+      <Joint4>8.2505e-06</Joint4>
+      <Joint5>112.1248</Joint5>
+      <Joint6>45.9901</Joint6>
+   </Step>
+   <Step id="43">
+      <Joint1>46.5647</Joint1>
+      <Joint2>-53.9958</Joint2>
+      <Joint3>82.2016</Joint3>
+      <Joint4>8.3535e-06</Joint4>
+      <Joint5>113.5257</Joint5>
+      <Joint6>46.5647</Joint6>
+   </Step>
+   <Step id="44">
+      <Joint1>47.034</Joint1>
+      <Joint2>-54.54</Joint2>
+      <Joint3>83.03</Joint3>
+      <Joint4>8.4377e-06</Joint4>
+      <Joint5>114.6699</Joint5>
+      <Joint6>47.034</Joint6>
+   </Step>
+   <Step id="45">
+      <Joint1>47.4034</Joint1>
+      <Joint2>-54.9684</Joint2>
+      <Joint3>83.6822</Joint3>
+      <Joint4>8.504e-06</Joint4>
+      <Joint5>115.5705</Joint5>
+      <Joint6>47.4034</Joint6>
+   </Step>
+   <Step id="46">
+      <Joint1>47.6804</Joint1>
+      <Joint2>-55.2896</Joint2>
+      <Joint3>84.1711</Joint3>
+      <Joint4>8.5537e-06</Joint4>
+      <Joint5>116.2458</Joint5>
+      <Joint6>47.6804</Joint6>
+   </Step>
+   <Step id="47">
+      <Joint1>47.8744</Joint1>
+      <Joint2>-55.5146</Joint2>
+      <Joint3>84.5136</Joint3>
+      <Joint4>8.5885e-06</Joint4>
+      <Joint5>116.7188</Joint5>
+      <Joint6>47.8744</Joint6>
+   </Step>
+   <Step id="48">
+      <Joint1>47.9973</Joint1>
+      <Joint2>-55.6571</Joint2>
+      <Joint3>84.7305</Joint3>
+      <Joint4>8.6105e-06</Joint4>
+      <Joint5>117.0184</Joint5>
+      <Joint6>47.9973</Joint6>
+   </Step>
+   <Step id="49">
+      <Joint1>48.0631</Joint1>
+      <Joint2>-55.7333</Joint2>
+      <Joint3>84.8467</Joint3>
+      <Joint4>8.6224e-06</Joint4>
+      <Joint5>117.1788</Joint5>
+      <Joint6>48.0631</Joint6>
+   </Step>
+   <Step id="50">
+      <Joint1>48.0883</Joint1>
+      <Joint2>-55.7626</Joint2>
+      <Joint3>84.8912</Joint3>
+      <Joint4>8.6269e-06</Joint4>
+      <Joint5>117.2403</Joint5>
+      <Joint6>48.0883</Joint6>
+   </Step>
+   <Step id="51">
+      <Joint1>48.092</Joint1>
+      <Joint2>-55.7669</Joint2>
+      <Joint3>84.8978</Joint3>
+      <Joint4>8.6275e-06</Joint4>
+      <Joint5>117.2494</Joint5>
+      <Joint6>48.0921</Joint6>
+   </Step>
+</RobotPath1>
